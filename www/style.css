@@ -9,8 +9,11 @@ body{
     width:400px;
     height:400px;
     display:flex;
-    justify-content: center;
+    justify-content:center;
     align-items:center;
+    color: antiquewhite;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:xx-large;
 }
 
 
@@ -54,7 +57,7 @@ body{
 }
 .text-center-bottom {
     position: absolute;
-    bottom: 20;
+    bottom: 50;
     left: 50%;
     transform: translateX(-50%);
 }
