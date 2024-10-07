@@ -11,4 +11,27 @@ $(document).ready(function () {
             effect: "bounceOut",
         },
     });
+
+    //Siri configuration
+    var siriWave = new SiriWave({
+        container: document.getElementById("siri-container"),
+        width: 900,
+        height: 300,
+        style:"ios9",
+        speed:"0.2",
+        amplitude:"1.6",
+        autostart:"true",
+      });
+
+      //siri message animation
+      $('.siri-message').textillate({
+        loop: true,
+        sync: true,
+        in:{
+            effect: "bounceIn",
+        },
+        out:{
+            effect: "bounceOut",
+        },
+    });
 });
