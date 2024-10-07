@@ -34,4 +34,13 @@ $(document).ready(function () {
             effect: "bounceOut",
         },
     });
+
+
+    //mic button click event
+
+    $("#MicBtn").click(function () { 
+    Element.playAssistantSound
+        $("#Oval").attr("hidden", true);
+        $("#SiriWave").attr("hidden", false);
+    });
 });
